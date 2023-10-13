@@ -1,7 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+install required dependencies like express, compression, cors. node modules.
+firstly run node.js backend file as both backend and frontend combined in single project if it successfully runs at a port then run frontend by below command.
 ## Available Scripts
 
 In the project directory, you can run:
