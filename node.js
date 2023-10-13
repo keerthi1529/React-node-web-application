@@ -29,16 +29,6 @@ app.get('/api/users', async (req, res) => {
         console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
     }
-    // try {
-    //    // const response=await axios.get('https://jsonplaceholder.typicode.com/users');
-    //    const response = await fetch(`http://localhost:3000/api/users?timestamp=${new Date().getTime()}`);
-    //     const users = response.data;
-    //     console.log(users)
-    //     res.json(users);
-    // } catch (error) {
-    //     console.error(error);
-    //     res.status(500).json({ error: 'Internal Server Error' });
-    // }
 });     
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
